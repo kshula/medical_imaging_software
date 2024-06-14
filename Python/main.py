@@ -39,10 +39,10 @@ st.title("Medical Imaging Software")
 
 # Navigation
 pages = ["Home", "Scan Image"]
-page = st.radio("Select Page", pages)
+page = st.sidebar.radio("Select Page", pages)
 
 if page == "Home":
-    st.header("Home Page")
+    st.header("Upload")
 
     # Upload DICOM file
     dicom_file = st.file_uploader("Upload a DICOM file", type=["dcm"])
@@ -61,4 +61,4 @@ if page == "Home":
 
 elif page == "Scan Image":
     st.header("Scan Image Page")
-    st.write("This page can be used for additional image scanning functionalities.")
+    st.write("This page will be used for additional image scanning functionalities.")

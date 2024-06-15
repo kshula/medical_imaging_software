@@ -3,3 +3,4 @@ plotly
 pydicom 
 opencv-python 
 numpy
+scikit-image

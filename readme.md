@@ -1,6 +1,6 @@
 # Medical Imaging Software
 
-![Sample image](images\\medical.png)
+![](medical.png)
 This is a simple medical imaging software application designed for MRI analysis using machine learning. The application is built using Python, Streamlit, and Plotly for visualization. It allows users to upload DICOM files, preprocess the images, and predict medical conditions based on a pre-trained machine learning model.
 
 ## Features
